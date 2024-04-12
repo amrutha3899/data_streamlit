@@ -5,7 +5,7 @@ from functools import reduce
 # Load data from CSV
 @st.cache_data
 def load_data():
-    return pd.read_csv("/Users/amruthashetty/PycharmProjects/CAPSTONE/complete_data.csv")
+    return pd.read_csv("complete_data.csv")
 
 def get_subcategories(category):
     subcategories = {
